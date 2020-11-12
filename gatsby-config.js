@@ -2,73 +2,37 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     siteUrl: `https://gatsby-starter-clean-resume.netlify.com/`,
-    name: `Luke Skywalker`,
-    role: `Software Developer`,
-    email: `luke@thelightside.com`,
+    name: `Robin Wishart`,
+    role: `Systems Administrator`,
+    email: `robinwishart8site@gmail.com`,
+    phone: `16047545434`,
+    address: `Mission, BC, Canada`,
     socialMedia: [
-      {
-        name: "github",
-        link: "https://github.com/masoudkarimif/gatsby-starter-clean-resume",
-      },
-      { name: "linkedin", link: "https://linkedin.com" },
-      { name: "facebook", link: "https://facebook.com" },
-      { name: "twitter", link: "https://twitter.com" },
-      { name: "instagram", link: "https://instagram.com" },
+      { name: "linkedin", link: "https://ca.linkedin.com/in/robin-wishart-329bb53" },
     ],
     about: `
-      <p>The son of Jedi Knight Anakin Skywalker and Senator Padmé Amidala,
-      Luke Skywalker was born along with his twin sister Leia in 19 BBY.
-      As a result of Amidala's death and Anakin's fall to the dark side of the Force,
-      the Skywalker children were separated and sent into hiding,
-      with Leia adopted by the royal family of Alderaan while Luke was raised by his relatives on Tatooine.
-      Longing for a life of adventure and purpose,
-      Skywalker joined the Rebellion and began learning the ways of the Force under the guidance of Jedi Master Obi-Wan Kenobi,
-      whose first apprentice was Luke's own father.
-      During the Battle of Yavin in 0 BBY, Skywalker saved the Alliance from annihilation by destroying the Empire's planet-killing superweapon,
-      the Death Star. He continued his training in the years that followed,
-      determined to become a Jedi Knight like his father before him,
-      and found a new mentor in Grand Master Yoda. After his master's death,
-      Skywalker participated in the Battle of Endor in 4 ABY,
-      during which he confronted the Sith Lord Darth Vader,
-      whom he learned was in fact his father, Anakin Skywalker.
-      With Luke's help, Anakin returned to the light side of the Force by destroying the Emperor at the cost of his own life,
-      fulfilling his destiny as the Chosen One. You can find more information <a href="https://starwars.fandom.com/wiki/Luke_Skywalker" target="_blank" rel="noopener noreferrer">here</a>.</p>
-      <p>See the PDF version of my resume <a href="#">here</a>.</p>
-      <p>As you can see, it's possible to add HTML tags in your about page.</p>
+      <p>Fusion power has captured my imagination for many years and the opportunity to work with <strong style="color:#dc4e48">General Fusion</strong> to make fusion power a clean and sustainable energy source is very exciting. </p>
+      <p>My experience matches the size and scope that <strong style="color:#dc4e48">General Fusion</strong> is looking for. </p>
+      <p>I have had to hire people, assemble them into teams, and mentor those teams so service delivery can excel while maintaining the highest levels of safety, security, productivity, and disaster readiness and recovery.</p>
+      <p>Please give me a call or email me using the links on the left to schedule a time when we can discuss this opportunity further!</p>
+      <p style="padding: 10px; border-style: solid; border-color:#dc4e48">See high- and web-quality PDF versions of my resume <a target="_blank" href="https://drive.google.com/drive/folders/1PWXw_fhnCCvPVSrUGTIcSpf6X3Iql9uT?usp=sharing">here</a>.</p>
       `,
     education: [
       {
-        degree: "Ph.D.",
-        major: "Computer Science",
-        when: "2014-2018",
-        school: "Harvard University",
-        where: "Cambridge, MA",
-        moreInfo: `<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        See my thesis <a href="#">here</a>.</p>`,
+        degree: "Bachelors of Commerce",
+        major: "Management Information Systems and Logistics",
+        when: "1987",
+        school: "University of British Columbia",
+        where: "Vancouver",
+        moreInfo: ``,
       },
       {
-        degree: "M.Sc.",
-        major: "Software Engineering",
-        when: "2012-2014",
-        school: "Stanford University",
-        where: "Stanford, CA",
-        moreInfo: `"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."`,
-      },
-      {
-        degree: "B.Sc.",
-        major: "Computer Engineering",
-        when: "2008-2012",
-        school: "UCLA",
-        where: "Los Angeles, CA",
-        moreInfo: `<p>I finally found out how it feels like to live in LA; it was awesome!</p>`,
-      },
-      {
-        degree: "High School Diploma",
-        when: "2000-2008",
-        school: "Awesome High School",
-        where: "Los Angeles, CA",
+        degree: "Certification",
+        major: "Leading by Design",
+        when: "2015",
+        school: "Banff Centre Peter Lougheed Leadership Institute",
+        where: "Banff",
+        moreInfo: ``,
       },
     ],
     experience: [
@@ -130,7 +94,7 @@ module.exports = {
       "Watching Monty Python and the Holy Grail",
     ],
     //available_themes: ["great-gatsby", "master-yoda", "wonder-woman", "darth-vader", "luke-lightsaber"],
-    theme: "great-gatsby",
+    theme: "wonder-woman",
     //fonts. Available: [default, programmer]
     font: "default",
   },

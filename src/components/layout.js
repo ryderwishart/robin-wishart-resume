@@ -14,6 +14,7 @@ const Layout = props => {
           name
           role
           email
+          phone
           socialMedia {
             name
             link
@@ -53,6 +54,7 @@ const Layout = props => {
                 role={data.site.siteMetadata.role}
                 socialMedia={data.site.siteMetadata.socialMedia}
                 email={data.site.siteMetadata.email}
+                phone={data.site.siteMetadata.phone}
               />
             </div>
             <div className="column" id="content-wrapper">

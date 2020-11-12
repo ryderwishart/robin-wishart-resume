@@ -37,7 +37,10 @@ const Profile = props => {
         <h4 id="profile-name">{props.name}</h4>
         <h6 id="profile-role">{props.role}</h6>
         <p id="profile-email">
-          <a href={"mailto:" + props.email}>{props.email || ""}</a>
+          <a href={"mailto:" + props.email}>email</a>
+        </p>
+        <p id="profile-email">
+          <a href={"tel:+" + props.phone}>phone</a>
         </p>
       </div>
       <div id="social-icons-wrapper">{socialIcons}</div>
