@@ -4,7 +4,9 @@ import { useStaticQuery, graphql } from "gatsby"
 
 const Skill = props => {
   return (
-    <table className="item-table skill-table">
+    <div dangerouslySetInnerHTML={{ __html: props.moreInfo }} />
+    )
+    {/* <table className="item-table skill-table">
       <tbody>
         <tr>
           <td className="item-name">{props.name || ""}</td>
@@ -18,11 +20,12 @@ const Skill = props => {
                 style={{ width: props.level + "%" }}
               ></div>
             </div>
+            <hr style={{color:'red'}}/>
+              
           </td>
         </tr>
       </tbody>
-    </table>
-  )
+    </table> */}
 }
 
 export default props => {
@@ -34,6 +37,7 @@ export default props => {
             name
             level
             experience
+            moreInfo
           }
         }
       }
@@ -45,6 +49,7 @@ export default props => {
       name={item.name}
       level={item.level}
       experience={item.experience}
+      moreInfo={item.moreInfo}
     />
   ))
   return (
